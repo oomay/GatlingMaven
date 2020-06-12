@@ -10,7 +10,7 @@ class BasicSimulation extends Simulation {
   private val connection= "keep-alive"
   private val contentType = "application/json"
   private val requestCount = 10
-  private val noOfUsers = 10
+  private val noOfUsers = 60000
 
 
   val httpProtocol = http
